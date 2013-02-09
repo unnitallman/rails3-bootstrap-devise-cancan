@@ -12,7 +12,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'mysql2'
+gem "mysql2", "~> 0.2.7"
 gem 'jquery-rails'
 gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
 gem "database_cleaner", ">= 0.9.1", :group => :test
