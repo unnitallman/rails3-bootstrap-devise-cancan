@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.11'
-gem 'sqlite3'
 
 group :development do
   gem 'capistrano'
@@ -13,6 +12,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'mysql2'
 gem 'jquery-rails'
 gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
 gem "database_cleaner", ">= 0.9.1", :group => :test
