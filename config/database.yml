@@ -5,3 +5,10 @@ production:
   timeout: 5000
   username:
   password:
+development:
+  adapter: mysql2
+  database: sample_development
+  pool: 5
+  timeout: 5000
+  username: root
+  password:
