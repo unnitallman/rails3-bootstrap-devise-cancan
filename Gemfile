@@ -4,6 +4,7 @@ gem 'sqlite3'
 
 group :development do
   gem 'capistrano'
+  gem 'rvm-capistrano'
 end
 
 group :assets do
